@@ -11,5 +11,10 @@
             "email": "milos.glogovac@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "doctrine/orm": "^3.2",
+        "php-di/php-di": "^7.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
