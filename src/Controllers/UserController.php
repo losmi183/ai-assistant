@@ -4,9 +4,13 @@ namespace App\Controllers;
 
 class UserController
 {
-    public function show($params)
+    public function index()
     {
-        // Logika za prikaz korisnika
-        echo "User ID: " . $params['id'];
+        echo "List of users";
+    }
+
+    public function show($id)
+    {
+        echo "User with ID: $id";
     }
 }
